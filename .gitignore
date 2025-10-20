@@ -1,0 +1,60 @@
+# =====================================
+# 🧠 LANGGRAPH PROJECT GITIGNORE
+# =====================================
+
+# --- Environment & API Keys ---
+.env
+.env.*
+service_account.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.Python
+.python-version
+venv/
+.venv/
+ENV/
+env/
+build/
+dist/
+
+# --- Logs & Runs ---
+.runs/
+logs/
+*.log
+
+# --- Notebooks ---
+*.ipynb_checkpoints
+*.ipynb_meta
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit Cache ---
+.streamlit/
+.cache/
+__streamlit_cache__/
+
+# --- Data Dumps / Temp ---
+tmp/
+data/
+uploads/
+downloads/
+*.csv
+*.xlsx
+*.json
+*.sqlite
+*.db
+
+# --- Other Sensitive Files ---
+# Don’t leak config or local secrets
+config.json
+credentials.json
