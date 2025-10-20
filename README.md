@@ -168,8 +168,3 @@ prospect-langgraph/
 
 🚀 Built with **Python**, **LangGraph**, and **Gemini** — for autonomous, data-driven prospecting.
 '''
-
-with open('README.md', 'w') as f:
-    f.write(content)
-
-'README.md'
